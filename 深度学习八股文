@@ -1,0 +1,10 @@
+1、什么是参数共享
+2、各个网络骨架的特点
+https://blog.csdn.net/weixin_39589455/article/details/114950664
+https://blog.csdn.net/cengjing12/article/details/109047008
+3、l1norm、l2norm的作用
+4、l1norm、l2norm的大概原理
+5、交叉熵、KL散度、最大似然估计得概念
+6、什么是静态图、动态图
+7、depthwise卷积是什么？
+8、1*1卷机的作用
