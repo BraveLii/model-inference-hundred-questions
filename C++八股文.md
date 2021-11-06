@@ -254,6 +254,7 @@ https://github.com/BraveLii/model-inference-hundred-questions/raw/main/sys_mem.j
 a.h，并不知道a.cpp，所以需要依赖a.cpp编译生成的外部链接，但是a.cpp本身并没有实例化模板A的诉求，因此模板A无法实例化，导致b.cpp链接时找不到需要的外部链接。
 
 b.h
+
 #pragma once
 template<typename T>
 class A
@@ -262,8 +263,8 @@ public:
     A(const T &t);
 };
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 b.cpp
+
 #include "b.h"
 #include <iostream>
 
@@ -273,8 +274,9 @@ A<T>::A(const T &t)
     std::cout << t << std::endl;
 }
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
 a.cpp
+
 #include "b.h"
 
 int main()
