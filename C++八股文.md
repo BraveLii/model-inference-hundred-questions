@@ -221,3 +221,4 @@ C++多态分为静态多态和动态多态。静态多态是通过重载和模�
 如果该类是virutal继承而来的子类，则该类的虚函数表指针和该类其他成员一起存储。虚函数表指针指向只读数据段中的类虚函数表，虚函数表中存放着一个个函数指针，函数指针指向代码段中的具体函数。
 如果类中成员是virtual属性，会隐藏父类对应的属性。
 
+https://github.com/BraveLii/model-inference-hundred-questions/blob/main/sys_mem.jpg?raw=true
